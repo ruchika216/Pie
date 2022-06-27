@@ -1,0 +1,74 @@
+{
+    "payload": {
+        "chartMetaData": {
+            "chartTitle": "Month-to-Date Spend by Service",
+            "chartDescription": "The chart below shows the proportion of costs spent for each service you use."
+        },
+        "costData": {
+            "serviceCosts": [
+                {
+                    "id": 1,
+                    "shortName": "EC2",
+                    "fullName": "Elastic Compute Cloud",
+                    "amount": {
+                        "amount": "79.34",
+                        "currencyCode": "USD"
+                    }
+                },
+                {
+                    "id": 2,
+                    "shortName": "RDS",
+                    "fullName": "Relational Database Service",
+                    "amount": {
+                        "amount": "43.29",
+                        "currencyCode": "USD"
+                    }
+                },
+                {
+                    "id": 3,
+                    "shortName": "S3",
+                    "fullName": "Simple Storage Service",
+                    "amount": {
+                        "amount": "23.06",
+                        "currencyCode": "USD"
+                    }
+                },
+                {
+                    "id": 4,
+                    "shortName": "R53",
+                    "fullName": "Route 53",
+                    "amount": {
+                        "amount": "5.00",
+                        "currencyCode": "USD"
+                    }
+                },
+                {
+                    "id": 5,
+                    "shortName": "OSV",
+                    "fullName": "Other Services",
+                    "amount": {
+                        "amount": "1.39",
+                        "currencyCode": "USD"
+                    }
+                }
+            ],
+        "taxValue": [
+            {
+                "id": 1,
+                "shortName": "TAX",
+                "fullName": "Tax",
+                "amount": {
+                    "amount": "27.40",
+                    "currencyCode": "USD"
+                }
+            }
+        ],
+        "totalCost": {
+            "amount": {
+                "amount": "27.40",
+                "currencyCode": "USD"
+            }
+        }
+        }
+    }
+}

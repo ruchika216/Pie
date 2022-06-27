@@ -1,0 +1,83 @@
+{
+    "payload": {
+        "chartMetaData": {
+            "chartTitle": "Month-to-Date Spend by Service",
+            "chartDescription": "The chart below shows the proportion of costs spent for each service you use."
+        },
+        "costData": {
+            "serviceCosts": [
+                {
+                    "id": 1,
+                    "shortName": "EC2",
+                    "fullName": "Elastic Compute Cloud",
+                    "amount": {
+                        "amount": "3700.71",
+                        "currencyCode": "INR"
+                    }
+                },
+                {
+                    "id": 2,
+                    "shortName": "RDS",
+                    "fullName": "Relational Database Service",
+                    "amount": {
+                        "amount": "1876.35",
+                        "currencyCode": "INR"
+                    }
+                },
+                {
+                    "id": 3,
+                    "shortName": "ECS",
+                    "fullName": "ElastiCache",
+                    "amount": {
+                        "amount": "938.18",
+                        "currencyCode": "INR"
+                    }
+                },
+                {
+                    "id": 4,
+                    "shortName": "DDB",
+                    "fullName": "DynamoDB",
+                    "amount": {
+                        "amount": "625.44",
+                        "currencyCode": "INR"
+                    }
+                },
+                {
+                    "id": 5,
+                    "shortName": "OSV",
+                    "fullName": "Other Services",
+                    "amount": {
+                        "amount": "312.57",
+                        "currencyCode": "INR"
+                    }
+                }
+            ],
+        "taxValue": [
+            {
+                "id": 1,
+                "shortName": "CGST",
+                "fullName": "CGST",
+                "amount": {
+                    "amount": "0",
+                    "currencyCode": "INR"
+                }
+            },
+            {
+                "id": 2,
+                "shortName": "SGST",
+                "fullName": "SGST",
+                "amount": {
+                    "amount": "0",
+                    "currencyCode": "INR"
+                }
+            }
+        ],
+        "totalCost": {
+            "amount": {
+                "amount": "7453.25",
+                "currencyCode": "INR"
+            }
+        }
+        }
+    }
+}
